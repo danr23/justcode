@@ -1,0 +1,85 @@
+<style>
+
+
+@font-face {
+font-family: "MorningBreeze-Bold";
+font-style: normal;
+font-weight: 400;
+src: local("MorningBreeze-Bold"),
+url("font/bold.otf") format("otf");
+}
+
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"),
+       url("font/roboto.ttf") format("ttf");
+       
+}
+
+  
+  .p {
+  color: black;
+  width: 700px;
+  border: 10px solid black;
+  font-size: 40px;
+  font-family: 'Intro';
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 0px;
+  background-color: white;
+    text-shadow: aqua vertical 100px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 3px 1px gray;
+  }
+  
+  
+  .p:hover {
+    color: white;
+  width: 700px;
+  font-size: 50px;
+  font-family: 'Intro';
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 0;
+  background-color: white;
+  text-shadow: gray vertical 100px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 3px 1px gray;
+  }
+    
+    .p:active {
+        color: gray;
+  width: 700px;
+  font-size: 40px;
+  font-family: "bold";
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 0;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 3px 1px gray;
+  border: 15px solid black;
+  font-weight: bold;
+    }
+    
+    
+    a {
+    font-family: "Intro";
+    }
+    
+    h4 {
+  font-family: "Roboto";
+}
+
+
+@font-face {
+           font-family: 'Intro';
+    src: local('Intro'), url('font/intro.woff2') format('woff2'), url('font/intro.woff') format('woff'), url('font/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+</style>

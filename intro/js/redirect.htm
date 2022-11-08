@@ -1,0 +1,42 @@
+<script>
+function init() {
+sec = 0;
+setInterval(tick, 0);
+}
+function tick() {
+document.getElementById("timer").childNodes[0].nodeValue = sec;
+}
+
+let canvas = document.getElementById('canvas');
+document.addEventListener('keydown', function(e) {
+console.log(e.keyCode)
+if (e.keyCode == 38) {
+sec++;
+}
+if (e.keyCode == 40) {
+sec--;
+}
+if (e.keyCode == 39) {
+alo = 2;
+sec = sec*alo;
+}
+if (e.keyCode == 37) {
+sec = sec/sec
+}
+if (sec == 100) {
+alert('Поздравляю вы набрали 100 кликов');
+}
+if (sec == 1000) {
+alert('Поздравляю вы набрали 1000 кликов');
+}
+});
+</script>
+<head>
+<meta charset="utf-8">
+</head>
+<body onload="init()">
+<font color="#00cfbf" style="border: 25px black;"><font size="5"><div align="center">
+<font color="#0a0a0b" style="border: 25px black; border-radius: 25px; box-shadow: 0 0 0 5px #0a0a0b; background-color: black, 0 0 0 8px #0a0a0b;">Счетчик кликов</font><br><div id="timer">0</div>
+<canvas id="canvas" style="display: block;">
+</canvas></font></font></div>
+</body>

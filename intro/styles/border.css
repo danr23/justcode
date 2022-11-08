@@ -1,0 +1,41 @@
+.bord{
+border: 10px solid #202020;
+border-radius: 25px;
+text-align: center;
+width: 500px;
+height: 325px;
+font-family: 'Intro';
+background-color: black;
+color: white;
+box-shadow: 0 0 0 1px gray,
+0 0 0 4px /*#003c84*/ #000000,
+            0 0 0 2px #101010,
+            0 0 0 8px #202020,
+            0 0 0 10px #303030,
+            0 0 0 12px #404040,
+            0 0 0 20px #505050,
+            0 0 0 21px #000000,
+            0 0 0 22px #202020,
+            0 0 0 23px #404040,
+            0 0 0 24px #505050,
+            0 0 0 25px #606060,
+            0 0 0 26px #707070,
+            0 0 0 27px #808080,
+            0 0 0 28px #909090,
+            0 0 0 29px #a0a0a0,
+            0 0 0 30px #b0b0b0,
+            0 0 0 31px #c0c0c0,
+            0 0 0 32px #d0d0d0,
+            0 0 0 33px #e0e0e0,
+            0 0 0 34px #f0f0f0,
+            0 0 0 35px #f9f9f9;
+}
+@font-face {
+           font-family: 'Intro';
+    src: local('Intro'), url('font/intro.woff2') format('woff2'), url('font/intro.woff') format('woff'), url('font/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+.l{
+font-family: 'Intro';
+}
